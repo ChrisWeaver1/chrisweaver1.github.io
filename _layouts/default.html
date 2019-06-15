@@ -1,0 +1,59 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="title" content="{{ page.title }}">
+    <meta name="description" content="{{ page.description }}">
+    <meta name="keywords" content="{{ page.keywords }}">
+
+    <!-- <meta name="twitter:image" content="{{ page.logo }}" /> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{ page.title }}</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/colormind-paper-dashboard.css"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="/assets/css/main.css"/>
+  </head>
+
+  <body>
+
+    <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg main-bg-dark">
+            <a class="navbar-brand" href="/">weav</a>
+            <div class="">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blog">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    <!-- Site wrapper -->
+    <div class="site">
+        <div class="card my-4">
+            <div class="card-body main-bg-dark">
+                {{ content }}
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+
+    </div> <!-- End of Footer -->
+  </body>
+
+</html>
+

@@ -1,0 +1,45 @@
+
+.navbar-brand {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;    
+    color: #efede6 !important;
+}
+
+.nav-link {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    color: #efede6 !important;
+}
+
+.navbar {
+    border-bottom: 2px solid #a7958a;
+}
+
+.site {
+    max-width: 80%;
+    margin: auto
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.main-bg-dark {
+    background-color: #312E2D;
+    color: #EFEDE6;
+}
+
+.main-bg-light {
+    background-color: #EFEDE6;
+    color: #312E2D;
+}
+
+.highlight {
+    color: #917365 !important;
+}

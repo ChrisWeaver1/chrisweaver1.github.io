@@ -1,1 +1,6 @@
 theme: jekyll-theme-minimal
+source: .
+destination: _site
+exclude:
+- Gemfile
+- Gemfile.lock
