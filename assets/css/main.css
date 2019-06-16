@@ -13,8 +13,12 @@
     color: #efede6 !important;
 }
 
+.nav-link:hover {
+    color: #917365 !important;
+}
+
 .navbar {
-    border-bottom: 2px solid #a7958a;
+    border-top: 2px solid #EFEDE6;
 }
 
 .site {
@@ -28,18 +32,41 @@
 
 body {
     font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    background-color: #0f1d2c;
+    height: 100%;
+}
+
+html {
+    height: 100%;
 }
 
 .main-bg-dark {
-    background-color: #312E2D;
+    background-color: #0f1d2c;
     color: #EFEDE6;
 }
 
 .main-bg-light {
     background-color: #EFEDE6;
-    color: #312E2D;
+    color: #0f1d2c;
 }
 
 .highlight {
     color: #917365 !important;
+}
+
+.header {
+  background-image: url("/assets/images/bg-2-1080.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card {
+    border: 0px !important;
+}
+
+.header-text {
+    font-weight: bolder;
+    text-shadow: 1px 1px #917365;
 }
