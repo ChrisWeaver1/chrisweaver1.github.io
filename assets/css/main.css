@@ -1,9 +1,11 @@
-
-.navbar-brand {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;    
-    color: #efede6 !important;
-}
+/* 
+    primary f2a780
+    primary highligh 972c4e
+    secondary 615a56de
+    light efede6
+    dark 0f1d2c
+    dark secondary 233345
+*/
 
 .nav-link {
     padding-top: 0 !important;
@@ -14,11 +16,16 @@
 }
 
 .nav-link:hover {
-    color: #917365 !important;
+    color: #e83e73 !important;
 }
 
 .navbar {
-    border-top: 2px solid #EFEDE6;
+    border-top: 2px solid #e83e73;
+    border-bottom: 1px solid #233345;
+}
+
+.active {
+    border-bottom: 3px solid #e83e73;
 }
 
 .site {
@@ -26,12 +33,16 @@
     margin: auto
 }
 
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+a {
+    color: #e83e73 !important;
+}
+
+a:hover {
+    color:#972c4e !important;
 }
 
 body {
-    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-family: Tahoma, Geneva, sans-serif !important;
     background-color: #0f1d2c;
     height: 100%;
 }
@@ -42,7 +53,7 @@ html {
 
 .main-bg-dark {
     background-color: #0f1d2c;
-    color: #EFEDE6;
+    color: #efede6;
 }
 
 .main-bg-light {
@@ -51,7 +62,7 @@ html {
 }
 
 .highlight {
-    color: #917365 !important;
+    color: #615a56de !important;
 }
 
 .header {
@@ -62,11 +73,23 @@ html {
   background-size: cover;
 }
 
-.card {
+.main-text-light {
+    color: #EFEDE6 !important;
+}
+
+.main-text-dark {
+    color: #0f1d2c !important;
+}
+
+.main-card {
     border: 0px !important;
+    border-left: 4px solid #233345 !important;
+    background-color: transparent !important;
+    border-radius: 0;
+
 }
 
 .header-text {
     font-weight: bolder;
-    text-shadow: 1px 1px #917365;
+    text-shadow: 1px 1px #e83e73;
 }

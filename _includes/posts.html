@@ -1,12 +1,12 @@
 <div class="row px-3">
 {%- for post in site.posts %}
 {% if post.catagories contains page.catagories[0] %}
-    <div class="col-4 py-2 px-2">
-        <div class="card">
+    <div class="col-lg-4 col-md-6 col-sm-12 py-2 px-2">
+        <div class="card main-bg-light">
             <div class="card-body">
                 <h5 class="card-title">{{ post.title }}</h5>
                 <p class="card-text">{{ post.description }}</p>
-                <a href="{{ post.url }}" class="btn btn-primary">View</a>
+                <a href="{{ post.url }}" class="btn btn-primary main-text-light">View</a>
             </div>
         </div>
     </div>
