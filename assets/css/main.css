@@ -29,8 +29,20 @@
 }
 
 .site {
-    max-width: 80%;
+    max-width: 70%;
     margin: auto
+}
+
+@media (max-width: 768px) {
+    .site {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 992px) {
+    .site {
+        max-width: 85%;
+    }
 }
 
 a {
