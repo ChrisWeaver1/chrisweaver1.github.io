@@ -85,6 +85,10 @@ html {
   background-size: cover;
 }
 
+.footer {
+    bottom: 0;
+}
+
 .main-text-light {
     color: #EFEDE6 !important;
 }
