@@ -1,0 +1,12 @@
+
+p {
+    font-size: small;
+}
+
+.highlight {
+    /* background-color:rgba(255, 255, 255, 0.7); */
+    border: 0px !important;
+    border-left: 4px solid #233345 !important;
+    border-radius: 0;
+    padding: 1%;
+}
