@@ -1,12 +1,19 @@
 <div class="row px-3">
 {%- for post in site.posts %}
 {% if post.catagories contains page.catagories[0] %}
-    <div class="col-lg-4 col-md-6 col-sm-12 py-2 px-2">
+    <div class="col-12 py-2 px-2">
         <div class="card main-bg-light">
-            <div class="card-body">
-                <h5 class="card-title">{{ post.title }}</h5>
-                <p class="card-text">{{ post.description }}</p>
-                <a href="{{ post.url }}" class="btn btn-primary main-text-light">View</a>
+            <div class="card-body row">
+                {% if post.image %}
+                <div class="d-lg-block d-sm-none d-none d-md-block col-md-3 col-lg-3 col-xl-2">
+                    <img src="{{post.image}}" class="img-thumbnail w-100 rounded float-left"/>
+                </div>
+                {% endif %}
+                <div class="col">
+                    <h4 class="card-title">{{ post.title }}</h4>
+                    <p class="card-text">{{ post.description }}</p>
+                    <a href="{{ post.url }}" class="btn btn-primary main-text-light">View</a>
+                </div>
             </div>
         </div>
     </div>
