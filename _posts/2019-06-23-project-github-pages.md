@@ -6,6 +6,7 @@ description: My personal website, built using Jekyll, Bootstrap and hosted on Gi
 catagories: ['project']
 customcss: /assets/css/markdown.css
 image: /assets/images/icons/octojekyll.png
+tags: ['ruby', 'html', 'css', 'bootstrap', 'jekyll']
 ---
 
 ## Personal Website - [chrisweaver1.github.io](https://chrisweaver1.github.io)
