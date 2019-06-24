@@ -3,7 +3,7 @@ layout: default
 permalink: /b/docker-setup
 customcss: /assets/css/markdown.css
 title: Docker - SSL, Reverse proxy, Management and hosting web projects
-description: Quick setup and documentation of my Docker setup. The aim was to be able to host multiple sites on different subdomains from the one server, all covered by SSL without too much hassle. Luckily a lot of the work is already done as there is an image that does almost exactly that, linuxserver/letencrypt. 
+description: The aim was to be able to host multiple sites on different subdomains from the one server, all covered by SSL without too much hassle. Luckily a lot of the work is already done as there is an image that does almost exactly that, linuxserver/letencrypt. 
 image: /assets/images/icons/docker.png
 catagories: ['blog']
 tags: ['docker', 'nginx', 'reverse proxy', 'portainer']
@@ -11,7 +11,7 @@ tags: ['docker', 'nginx', 'reverse proxy', 'portainer']
 
 ## Docker - SSL, Reverse Proxies, Management and Hosting Web Projects
 
-Quick setup and documentation of my Docker setup. The aim was to be able to host multiple sites on different subdomains from the one server, all covered by SSL without too much hassle. Luckily a lot of the work is already done as there is an image that does almost exactly that, [linuxserver/letencrypt](https://hub.docker.com/r/linuxserver/letsencrypt/). 
+/The aim was to be able to host multiple sites on different subdomains from the one server, all covered by SSL without too much hassle. Luckily a lot of the work is already done as there is an image that does almost exactly that, [linuxserver/letencrypt](https://hub.docker.com/r/linuxserver/letsencrypt/). 
 
 #### 1 LinuxServer/LetsEncrypt
 
