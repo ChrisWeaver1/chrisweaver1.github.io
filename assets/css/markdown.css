@@ -11,7 +11,7 @@ h4 {
     margin-bottom: 15px;
 }
 
-p, ul {
+p, ul, li, td, th {
     font-size: small;
 }
 
@@ -24,4 +24,49 @@ pre.highlight {
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+table {
+    border: 1px solid #233345;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+
+thead {
+    box-sizing: border-box;
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    box-sizing: border-box;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    padding: .5rem;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    border: 1px solid #233345;
+    border-bottom-width: 2px;
+}
+
+tbody {
+    box-sizing: border-box;
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+td {
+    padding: .5rem;
+    border: 1px solid #233345;
+    box-sizing: border-box;
+    display: table-cell;
+    vertical-align: inherit;
 }
