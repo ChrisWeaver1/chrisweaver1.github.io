@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /p/github-pages
-title: Personal Website - chrisweaver1.github.io
+title: Personal Website
 description: My personal website, built using Jekyll, Bootstrap and hosted on Github Pages.
 catagories: ['project']
 customcss: /assets/css/markdown.css
