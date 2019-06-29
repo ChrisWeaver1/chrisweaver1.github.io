@@ -2,7 +2,7 @@
 layout: default
 permalink: /p/mongo-sandbox
 title: Mongo Sandbox Application
-description: A MongoDB testing application, for testing queries, generating data and playing with Mongoose.
+description: A MongoDB testing application, for testing queries, generating data and playing with Mongoose. The application is written in Typescript/NodeJS and uses Mongoose to communicate with the database.
 catagories: ['project']
 customcss: /assets/css/markdown.css
 image: /assets/images/posts/MongoDB_LogoStacked_FullColorBlack_RGB.jpg

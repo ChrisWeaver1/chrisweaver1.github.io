@@ -2,7 +2,7 @@
 layout: default
 permalink: /p/github-pages
 title: Personal Website
-description: My personal website, built using Jekyll, Bootstrap and hosted on Github Pages.
+description: My personal website, built using Jekyll, Bootstrap and hosted on Github Pages. I've made a number of personal sites over the past few years and I always disliked them in one way or another, this iteration seems a bit different.
 catagories: ['project']
 customcss: /assets/css/markdown.css
 image: /assets/images/icons/octojekyll.png
