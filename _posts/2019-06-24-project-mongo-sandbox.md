@@ -13,9 +13,9 @@ tags: ['nodejs', 'typescript', 'mongodb', 'mongo', 'mongoose']
 
 [![Generic badge](https://img.shields.io/badge/Github-mongo sandbox-blue.svg)](https://github.com/ChrisWeaver1/mongo-sandbox)
 
-A [MongoDB](https://www.mongodb.com/) testing application, for testing queries, generating data and playing with [Mongoose](https://mongoosejs.com/docs/2.7.x/index.html). The application is written in Typescript/NodeJS and uses [Mongoose](https://mongoosejs.com/docs/2.7.x/index.html) to comminicate with the database. [Mocha](https://mochajs.org/) is used to run the tests, allowing us to time and test different sets of queries. We can also set timeouts, fail certain tests based on the data that is bought back and all sorts of interesting and useful stuff. 
+A [MongoDB](https://www.mongodb.com/) testing application, for testing queries, generating data and playing with [Mongoose](https://mongoosejs.com/docs/2.7.x/index.html). The application is written in Typescript/NodeJS and uses [Mongoose](https://mongoosejs.com/docs/2.7.x/index.html) to communicate with the database. [Mocha](https://mochajs.org/) is used to run the tests, allowing us to time and test different sets of queries. We can also set timeouts, fail certain tests based on the data that is bought back and all sorts of interesting and useful stuff. 
 
-I threw this togther in order to test a number of different queries for a project we were doing at work. We needed to see the performance on MongoDB's [$in selector](https://docs.mongodb.com/manual/reference/operator/query/in/) against large sets of data and arrays, which is what it is currently setup todo. However, I have used this for other projects as it's an easy way to setup and test different schemas, generate random data sets and even as a simple reference project. 
+I threw this together in order to test a number of different queries for a project we were doing at work. We needed to see the performance on MongoDB's [$in selector](https://docs.mongodb.com/manual/reference/operator/query/in/) against large sets of data and arrays, which is what it is currently setup todo. However, I have used this for other projects as it's an easy way to setup and test different schemas, generate random data sets and even as a simple reference project. 
 
 ### Overview
 
@@ -23,7 +23,7 @@ I threw this togther in order to test a number of different queries for a projec
     - generates random data and inserts it into the mongo database
     - run with `npm run generate`
 - `tests.ts`
-    - Test queries for mongo database
+    - Test queries for Mongo database
     - Uses mocha for timings, success etc
     - run tests with `npm run test`
 - `options.ts`
@@ -36,8 +36,8 @@ I threw this togther in order to test a number of different queries for a projec
 ### Quick Setup
 
 ```
-git clone git@github.com:ChrisWeaver1/mongoose-sandbox.git
-cd mongoose-sandbox
+git clone git@github.com:ChrisWeaver1/mongo-sandbox.git
+cd mongo-sandbox
 npm install
 ```
 
