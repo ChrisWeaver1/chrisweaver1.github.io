@@ -5,17 +5,17 @@ title: Mongo Sandbox Application
 description: A MongoDB testing application, for testing queries, generating data and playing with Mongoose.
 catagories: ['project']
 customcss: /assets/css/markdown.css
-image: /assets/images/icons/mongodb.ico
+image: /assets/images/posts/MongoDB_LogoStacked_FullColorBlack_RGB.jpg
 tags: ['nodejs', 'typescript', 'mongodb', 'mongo', 'mongoose']
 ---
 
-## Mongo Sandbox Application
+## MongoDB Sandbox Application
 
 [![Generic badge](https://img.shields.io/badge/Github-mongo sandbox-blue.svg)](https://github.com/ChrisWeaver1/mongo-sandbox)
 
-A [MongoDB](https://www.mongodb.com/) testing application, for testing queries, generating data and playing with Mongoose. The application is written in Typescript/NodeJS and uses [Mongoose](https://mongoosejs.com/docs/2.7.x/index.html) to interface the database and [Mocha](https://mochajs.org/) for as a test framework to allow us to time and test different sets of queries.
+A [MongoDB](https://www.mongodb.com/) testing application, for testing queries, generating data and playing with [Mongoose](https://mongoosejs.com/docs/2.7.x/index.html). The application is written in Typescript/NodeJS and uses [Mongoose](https://mongoosejs.com/docs/2.7.x/index.html) to comminicate with the database. [Mocha](https://mochajs.org/) is used to run the tests, allowing us to time and test different sets of queries. We can also set timeouts, fail certain tests based on the data that is bought back and all sorts of interesting and useful stuff. 
 
-I threw this togther in order to test a number of different queries for a project we were doing at work. We needed to see the performance on MongoDB's [$in selector](https://docs.mongodb.com/manual/reference/operator/query/in/) against large sets of data and arrays, which is what it is currently setup todo. However I have used this for other projects as it's an easy way to setup and test different schemas, generate random data sets and it provides a simple reference project. 
+I threw this togther in order to test a number of different queries for a project we were doing at work. We needed to see the performance on MongoDB's [$in selector](https://docs.mongodb.com/manual/reference/operator/query/in/) against large sets of data and arrays, which is what it is currently setup todo. However, I have used this for other projects as it's an easy way to setup and test different schemas, generate random data sets and even as a simple reference project. 
 
 ### Overview
 
