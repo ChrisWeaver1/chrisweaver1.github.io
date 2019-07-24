@@ -15,6 +15,10 @@
     color: #efede6 !important;
 }
 
+.nav-item {
+    font-size: medium !important;
+}
+
 .nav-link:hover {
     color: #e83e73 !important;
 }
