@@ -1,0 +1,22 @@
+  
+name: Docker Build and Push
+on:
+  push:
+    branches:
+    - master
+    
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    
+    - uses: actions/checkout@v1
+    - name: Publish Docker
+      uses: elgohr/Publish-Docker-Github-Action@2.10
+      with:
+        name: chrisweaver1/chrisweaver1.github.io/release
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
+        registry: docker.pkg.github.com
