@@ -1,9 +1,9 @@
   
 name: Docker Build and Push
-on:
-  push:
-    branches:
-    - master
+
+on: 
+  release:
+    types: [created]
     
 jobs:
   build:
