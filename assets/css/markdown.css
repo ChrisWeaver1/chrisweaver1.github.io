@@ -1,6 +1,6 @@
 
 h2 {
-    border-bottom: 2px solid #233345;
+    border-bottom: 2px solid #b8b6af;
     margin-bottom:10px;
     padding-bottom: 10px;
 }
@@ -18,7 +18,7 @@ p, ul, li, td, th {
 pre.highlight {
     /* background-color:rgba(255, 255, 255, 0.7); */
     border: 0px !important;
-    border-left: 4px solid #233345 !important;
+    border-left: 4px solid #b8b6af !important;
     border-radius: 0;
     padding-right: 20px;
     padding-left: 20px;
@@ -27,7 +27,7 @@ pre.highlight {
 }
 
 table {
-    border: 1px solid #233345;
+    border: 1px solid #b8b6af;
     background-color: transparent;
     border-collapse: collapse;
     border-spacing: 2px;
@@ -52,7 +52,7 @@ th {
     display: table-cell;
     vertical-align: inherit;
     font-weight: bold;
-    border: 1px solid #233345;
+    border: 1px solid #b8b6af;
     border-bottom-width: 2px;
 }
 
@@ -65,8 +65,12 @@ tbody {
 
 td {
     padding: .5rem;
-    border: 1px solid #233345;
+    border: 1px solid #b8b6af;
     box-sizing: border-box;
     display: table-cell;
     vertical-align: inherit;
+}
+
+hr {
+    border-top: 2px solid #b8b6af;
 }
