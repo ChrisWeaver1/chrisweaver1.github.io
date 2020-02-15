@@ -4,3 +4,8 @@ destination: _site
 exclude:
 - Gemfile
 - Gemfile.lock
+collections:
+    projects:
+        name: projects
+        output: true
+        permalink: "/projects/:path"

@@ -4,4 +4,4 @@ permalink: /projects
 layout: default
 ---
 
-currently unavailable
+{% include projects.html %}

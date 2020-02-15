@@ -41,7 +41,7 @@ body {
 }
 
 .site {
-    max-width: 65%;
+    max-width: 70%;
     margin: auto
 }
 
@@ -92,7 +92,8 @@ html {
 }
 
 .highlight {
-    color: #9c8171de !important;
+    color: #7caec5de !important;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .header {
