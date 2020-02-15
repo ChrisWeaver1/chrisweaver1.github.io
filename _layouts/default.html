@@ -15,20 +15,18 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="/assets/fa/css/all.min.css"/>
         <link rel="stylesheet" href="/assets/css/main.css"/>
+        <link rel="stylesheet" href="/assets/css/markdown.css"/>
         
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="{{ page.customcss }}"/>
 
     </head>
 
-    <body>
+    <body class="main-bg-dark d-flex flex-column">
 
         <!-- Header -->
         {% include header.html %}
 
-
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg main-bg-dark sticky-top flex-nowrap flex-row">
+        <nav class="navbar navbar-expand-lg main-bg-darker sticky-top flex-nowrap flex-row">
             <div class="mx-auto" style="white-space: nowrap;">
                 <ul class="navbar-nav flex-row">
                     <li class="nav-item mx-2">
@@ -47,26 +45,16 @@
         <!-- Site wrapper -->
         <div class="site">
             <div class="card main-card my-4">
-                <div class="card-body main-bg-dark">
+                <div class="card-body main-bg-darker">
                     {{ content }}
                 </div>
             </div>
         </div>
 
         <!-- Footer -->
-        <div class="footer main-bg-light main-text-dark px-5 py-2">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center">
-                    <small class="mx-1"><i class="fas fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:chris.weaver.work@gmail.com">chris.weaver.work@gmail.com</a></small>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center">
-                    <small class="mx-1"><i class="fab fa-linkedin"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/chrisweaver2/">linkedin/chrisweaver2</a></small>
-                </div>  
-                <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center">
-                    <small class="mx-1"><i class="fab fa-github-square"></i>&nbsp;&nbsp;<a href="https://github.com/ChrisWeaver1">github/chrisweaver1</a></small>
-                </div>            
-            </div>  
-        </div> 
+        <footer id="sticky-footer" class="footer main-bg-darker text-white-50 py-1">
+            {% include footer-links.html %}
+        </footer>
     </body>
 
 </html>
