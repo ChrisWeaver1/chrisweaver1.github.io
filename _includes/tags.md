@@ -1,1 +1,0 @@
-{% for tag in page.tags %}`{{tag}}`{% if forloop.last != true %}&nbsp;&nbsp; {% endif%}{% endfor %}
