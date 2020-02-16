@@ -4,6 +4,7 @@ title: crusch
 repo: chrisweaver1/crusch
 description: Create and use lightweight application clients for Githubs JSON API
 tags: ['go', 'github', 'bot', 'api']
+sort_key: 1
 ---
 
 {% include project-headers.html %}
@@ -26,5 +27,3 @@ respose, err := client.GetJson("/repos/chrisweaver1/crusch/issues",
 ```
 
 It wasn't made a a replacement for the larger libaries that do similar things (`go-github`), but it was designed as a lightweight client to make thing easier for projects that don't need everything that `go-github` offers.
-
-{% include tags.md %}

@@ -5,7 +5,8 @@
         <h3>Projects</h3>
         <hr />
         <div class="my-3"></div>
-        {%- for p in site.projects %}
+        {% assign items = site.projects | sort: 'sort_key' %}
+        {%- for p in items %}
         <div class="row main-bg-dark">
             <div class="col pt-3 py-2">
                 {{ p.content }}
