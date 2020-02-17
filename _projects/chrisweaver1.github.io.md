@@ -2,8 +2,8 @@
 layout: md
 title: chrisweaver1.github.io
 repo: chrisweaver1/chrisweaver1.github.io
-description: Basic, personal website/portfolio built using Jekyll (this) 
-tags: ['jekyll', 'ruby', 'html', 'portfolio']
+description: Basic, personal website/portfolio built using Jekyll (this).
+tags: ['jekyll', 'ruby', 'html', 'portfolio', 'docker']
 sort_key: 5
 ---
 
@@ -11,4 +11,8 @@ sort_key: 5
 
 ![Ruby Build](https://github.com/ChrisWeaver1/chrisweaver1.github.io/workflows/Ruby%20Build/badge.svg?branch=master)
 
-My portfolio/personal website and blog built using Jekyll and hosted by Github Pages. I've gone through quite afew iterations of personal websites starting from when I originally made one in university. This is certainly the one I am most pleased with. I tend struggle with the design aspect of making websites, I can be quite picky and I have ideas about what I want to create, but actually applying that onto a webpage has proven a challenge. But fortunately with a combination of Bootstrap4, Jekyll and some other things I have made it work this time and produced a somewhat nice portfolio, for me atleast, it certainly doesn't rival others I have seen.
+My portfolio/personal website and blog built using Jekyll and hosted by Github Pages. I've gone through quite afew iterations of personal websites, starting from when I originally made one in university. This is certainly the one I am most pleased with so far. 
+
+Jekyll allows me to work with a mixture of Markdown, HTML and Liquid templating, making it easy to write for and maintain the website without having to mess about with Javascript or large amounts of HTML, unless I want an entirely new page layout or design. Jekyll allows you to create collections, components/includes and layouts which can be used and then reused throughout the site in a variety of different ways. It will then build up the website into static pages making it extremely easy to host, even for free through services like Github Pages.
+
+I have also set up this respository to use Github actions to produce an Nginx based docker image of the site and push it into their Docker repository, making it extemely easy for me to deploy myself if/when required. 
