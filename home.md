@@ -10,9 +10,9 @@ title: Home
 
 I currently work as part of a small team at SG World Ltd, we are focused on moving some of our older products into the current era by producing cloud based solutions using a variety of different technologies including .NET Core, Angular, Electron, Microsoft SQL and MongoDB. 
 
-I started here a while after graduating from Coventry University with a first class degree in Ethical Hacking. I am extremely thankful for the experience I have been able to pick up whilst at SG World, however I have started casually looking to see if any other opportunities come my way.
-
 Alongside what I do at work, I have a decent amount of experience using other languages like Python, Golang and JS/Node/Typescript and their respective ecosystems. I am also proficient with a number of development tools, git, Github, CI/CD (Azure devops, Travis and Github Actions), Docker, Azure and VS Code (the superior IDE). 
+
+I graduated from Coventry University with a first class degree in Ethical Hacking in late 2017. Here I was able able to gain alot of experience in computing, many tools and techniques and also a lot of experience playing around with Python and Linux based operating systems.
 
 ---
 
