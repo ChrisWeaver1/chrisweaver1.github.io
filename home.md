@@ -26,6 +26,7 @@ Feel free to check out the [projects](/projects) and [blog](/blog) sections for 
 
 ###### Research Assistant (Internship), Coventry University 
 `May 2016 - August 2016`
+
 ---
 
 ### Education
@@ -35,6 +36,7 @@ Ethical Hacking and Network Security (BSc Hons), First
 
 ###### Shrewsbury College of Arts and Technology, September 2012 – July 2014 
 Level 3 BTEC Extended Diploma in IT, Triple Distinction (DDD)
+
 ---
 
 ### Skills
