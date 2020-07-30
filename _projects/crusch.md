@@ -1,7 +1,7 @@
 ---
 layout: md
 title: crusch
-repo: chrisweaver1/crusch
+repo: mogolade/crusch
 description: Create and use lightweight application clients for Githubs JSON API
 tags: ['go', 'github', 'bot', 'api']
 sort_key: 1
@@ -9,8 +9,8 @@ sort_key: 1
 
 {% include project-headers.html %}
 
-![tests](https://github.com/chrisweaver1/crusch/workflows/Go/badge.svg?branch=master) 
-[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/chrisweaver1/crusch)
+![tests](https://github.com/mogolade/crusch/workflows/Go/badge.svg?branch=master) 
+[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/mogolade/crusch)
 
 Crusch is a lightweight libary which provides tools for Github Apps to communicate with Githubs V3 API, without too much unnecessary hassle.
 
@@ -22,7 +22,7 @@ client := crusch.NewDefault()
 client.NewInstallationAuthFile(<ApplicationID>, <InstallationID>, <PEM keyfile location>)
 
 var v []github.Issue{}
-respose, err := client.GetJson("/repos/chrisweaver1/crusch/issues", 
+respose, err := client.GetJson("/repos/mogolade/crusch/issues", 
     "assignee=chrisweaver1&state=open", &v)
 ```
 
