@@ -10,9 +10,9 @@ title: Home
 
 Software developer with a background in ethical hacking. 
 
-Currently doing full stack development with .NET Core, Angular, Electron, NodeJS, Microsoft SQL and MongoDB. Enjoy to play with other, miscellaneous tech in my free time. 
+Currently doing full stack development with .NET Core, Angular, Electron, NodeJS, Microsoft SQL and MongoDB. 
 
-Feel free to check out the [projects](/projects) and [blog](/blog) sections for more details there. 
+Although, I enjoy to play with other, miscellaneous tech in my free time. Currently playing with Go, Raspberry pi 4, Mozilla WebThings & Docker. Feel free to check out the [projects](/projects) and [blog](/blog) sections for more!
 
 ---
 
@@ -21,27 +21,27 @@ Feel free to check out the [projects](/projects) and [blog](/blog) sections for 
 ###### Software Developer, SG World Ltd 
 `March 2018 - Present`
 
-###### Software Engineer (Work experience), Ricoh Telford 
+##### Software Engineer (Work experience), Ricoh Telford 
 `September 2017 - November 2017`
 
-###### Research Assistant (Internship), Coventry University 
+##### Research Assistant (Internship), Coventry University 
 `May 2016 - August 2016`
 
 ---
 
 ### Education
 
-###### Coventry University, September 2014 - May 2017
+##### Coventry University, September 2014 - May 2017
 Ethical Hacking and Network Security (BSc Hons), First
 
-###### Shrewsbury College of Arts and Technology, September 2012 – July 2014 
+##### Shrewsbury College of Arts and Technology, September 2012 – July 2014 
 Level 3 BTEC Extended Diploma in IT, Triple Distinction (DDD)
 
 ---
 
 ### Skills
 
-###### Technologies
+##### Technologies
 
 <span class="badge badge-secondary">.Net</span>
 <span class="badge badge-secondary">Javascript (Typescript, NodeJS)</span>
@@ -55,7 +55,7 @@ Level 3 BTEC Extended Diploma in IT, Triple Distinction (DDD)
 <span class="badge badge-secondary">Bootstrap</span>
 <span class="badge badge-secondary">Java (Maven, Android)</span>
 
-###### Tools
+##### Tools
 
 <span class="badge badge-secondary">Git</span>
 <span class="badge badge-secondary">Github</span>
