@@ -4,8 +4,7 @@ destination: _site
 exclude:
 - Gemfile
 - Gemfile.lock
-keep_files:
-- _data/
+- nginx.conf
 collections:
     projects:
         name: projects

@@ -8,7 +8,7 @@ title: Home
 
 Software developer with a background in ethical hacking
 
-Currently working as a full stack developer, using Dotnet core, Microsoft SQL, MongoDB, NodeJS, Angular and Electron.
+Currently working as a full stack developer, using a variety of tech including Dotnet core, Microsoft SQL, MongoDB, NodeJS, Angular and Electron.
 
 I enjoy playing with all sorts of tech and learning new stuff. Feel free to check out the [projects](/projects) and [blog](/blog) sections for details!
 
@@ -16,24 +16,24 @@ I enjoy playing with all sorts of tech and learning new stuff. Feel free to chec
 
 ### Experience
 
-##### Software Developer, SG World Ltd 
+###### Software Developer, SG World Ltd 
 `March 2018 - Present`
 
-##### Software Engineer (Work experience), Ricoh Telford 
+###### Software Engineer (Work experience), Ricoh Telford 
 `September 2017 - November 2017`
 
-##### Research Assistant (Internship), Coventry University 
+###### Research Assistant (Internship), Coventry University 
 `May 2016 - August 2016`
 
 ---
 
 ### Education
 
-##### Coventry University, September 2014 - May 2017
-Ethical Hacking and Network Security (BSc Hons), First
+###### Coventry University, September 2014 - May 2017
+`Ethical Hacking and Network Security (BSc Hons), First`
 
-##### Shrewsbury College of Arts and Technology, September 2012 – July 2014 
-Level 3 BTEC Extended Diploma in IT, Triple Distinction (DDD)
+###### Shrewsbury College of Arts and Technology, September 2012 – July 2014 
+`Level 3 BTEC Extended Diploma in IT, Triple Distinction (DDD)`
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: md
-title: yuu
+title: Yuu
 repo: mogolade/yuu
-description: Create and use lightweight application clients for Githubs JSON API
+description: Plugin manager for Go. Implements an easy way to handle and communicate with plugins to help extend applications
 tags: ['go', 'plugins', 'events']
 sort_key: 1
 ---

@@ -1,9 +1,9 @@
 ---
 layout: md
-title: crusch
+title: Crusch
 repo: mogolade/crusch
-description: Create and use lightweight application clients for Githubs JSON API
-tags: ['go', 'github', 'bot', 'api']
+description: Authenticate & query Githubs API with crusch. Using crusch's lightweight clients to help manage authentication, you can easily make requests to Githubs API and automatically bind the result to a struct
+tags: ['go', 'github', 'bot', 'application', 'api']
 sort_key: 1
 ---
 

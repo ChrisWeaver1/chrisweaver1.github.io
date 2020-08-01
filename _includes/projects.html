@@ -1,15 +1,32 @@
-
-
 <div class="row  px-xs-3 px-sm-3 px-md-3 px-lg-5 px-xl-5">
     <div class="col-12">
-        <h3>Projects</h3>
-        <hr />
-        <div class="my-3"></div>
+        <div class="row">
+            <h3 class="col-12">Projects</h3>
+            <hr class="col my-3" />
+        </div>
         {% assign items = site.projects | sort: 'sort_key' %}
         {%- for p in items %}
         <div class="row main-bg-dark">
             <div class="col pt-3 py-2">
-                {{ p.content }}
+
+                <div class="row d-block">
+                    <div class="col-12 mb-1">
+                        <h4 class="d-inline">{{ p.title }}&nbsp;</h4>
+                        {% if p.repo %}
+                        <a href="https://github.com/{{p.repo}}" class="d-inline float-right">
+                            <img src="https://img.shields.io/static/v1?label=&message={{p.repo}}&color=blue&style=flat-square&logo=Github" alt="Github">
+                        </a>
+                        {% endif %}
+                        <p>{{ p.description }}</p>
+                    </div>
+                    <div class="col-12">
+                        {% for tag in p.tags %}<span class="badge badge-secondary">{{tag}}</span>{% if forloop.last != true %}&nbsp;{% endif%}{% endfor %}
+                    </div>
+                    <div class="col-12">
+                        <a class="float-right" href="{{p.url}}"><small>Read more..&nbsp;<i class="fas fa-link"></i></small></a>
+                    </div>
+                </div>
+                
             </div>
         </div>
         <div class="my-4"> </div>
