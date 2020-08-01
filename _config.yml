@@ -4,7 +4,7 @@ destination: _site
 exclude:
 - Gemfile
 - Gemfile.lock
-include:
+keep_files:
 - _data/
 collections:
     projects:
