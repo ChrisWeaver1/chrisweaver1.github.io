@@ -1,6 +1,6 @@
 ---
 layout: md
-title: Weav-TOTP
+title: weav-totp
 repo: chrisweaver1/weav-totp
 description: A javascript implementation of the TOTP algorithm, used in applications like Google Authenticator 
 tags: ['totp', 'javascript', 'npm', 'typescript', '2fa', 'security']

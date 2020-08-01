@@ -1,7 +1,7 @@
 ---
 layout: md
-title: Mogo-Discord
-repo: weavc/mogo-discord
+title: weavc-discord
+repo: weavc/weavc-discord
 description: Javascript library of helpers for discord bots, helps with routing messages to functions and paging embeds with reactions. Works inline with discord.js
 tags: ['javascript', 'npm', 'typescript', 'discord']
 sort_key: 2

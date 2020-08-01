@@ -1,6 +1,6 @@
 ---
 layout: md
-title: Crusch
+title: crusch
 repo: weavc/crusch
 description: Authenticate & query Githubs API with crusch. Using crusch's lightweight clients to help manage authentication, you can easily make requests to Githubs API and automatically bind the result to a struct
 tags: ['go', 'github', 'bot', 'application', 'api']
