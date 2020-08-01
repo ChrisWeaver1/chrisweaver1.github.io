@@ -14,7 +14,7 @@ sort_key: 1
 
 Crusch is a lightweight libary which provides tools for Github Apps to communicate with Githubs V3 API, without too much unnecessary hassle.
 
-This libary provides a simple client structure to make requests to Githubs API. Clients aid with adding and creating the required authorization headers, keeping track of when they might need to be renewed and other small helper methods.
+This libary provides a simple client struct to make requests to Githubs API. Clients aid with adding and creating the required authorization headers, renewing them when they to be renewed and other small helper methods.
 
 Making a request is as simple as:
 ```go
@@ -27,3 +27,4 @@ respose, err := client.GetJson("/repos/weavc/crusch/issues",
 ```
 
 It wasn't made a a replacement for the larger libaries that do similar things (`go-github`), but it was designed as a lightweight client to make thing easier for projects that don't need everything that `go-github` offers.
+
