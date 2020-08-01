@@ -6,19 +6,17 @@ title: Home
 
 ---
 
-### About Me
+Software developer with a background in ethical hacking
 
-Software developer with a background in ethical hacking. 
+Currently working as a full stack developer, using Dotnet core, Microsoft SQL, MongoDB, NodeJS, Angular and Electron.
 
-Currently doing full stack development with .NET Core, Angular, Electron, NodeJS, Microsoft SQL and MongoDB. 
-
-Although, I enjoy to play with other, miscellaneous tech in my free time. Currently playing with Go, Raspberry pi 4, Mozilla WebThings & Docker. Feel free to check out the [projects](/projects) and [blog](/blog) sections for more!
+I enjoy playing with all sorts of tech and learning new stuff. Feel free to check out the [projects](/projects) and [blog](/blog) sections for details!
 
 ---
 
 ### Experience
 
-###### Software Developer, SG World Ltd 
+##### Software Developer, SG World Ltd 
 `March 2018 - Present`
 
 ##### Software Engineer (Work experience), Ricoh Telford 
