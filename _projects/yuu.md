@@ -1,7 +1,7 @@
 ---
 layout: md
 title: Yuu
-repo: mogolade/yuu
+repo: weavc/yuu
 description: Plugin manager for Go. Implements an easy way to handle and communicate with plugins to help extend applications
 tags: ['go', 'plugins', 'events']
 sort_key: 1
@@ -9,8 +9,8 @@ sort_key: 1
 
 {% include project-headers.html %}
 
-![tests](https://github.com/mogolade/yuu/workflows/Go/badge.svg?branch=master) 
-[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/mogolade/yuu)
+![tests](https://github.com/weavc/yuu/workflows/Go/badge.svg?branch=master) 
+[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/weavc/yuu)
 
 Yuu is a lightweight module in its early stages of development/testing. Its aim is to aid in using plugin/event driven architecture within go. There are probably alternatives out there, I just started doing a small project and it turned into this.
 

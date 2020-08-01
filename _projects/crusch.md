@@ -1,7 +1,7 @@
 ---
 layout: md
 title: Crusch
-repo: mogolade/crusch
+repo: weavc/crusch
 description: Authenticate & query Githubs API with crusch. Using crusch's lightweight clients to help manage authentication, you can easily make requests to Githubs API and automatically bind the result to a struct
 tags: ['go', 'github', 'bot', 'application', 'api']
 sort_key: 1
@@ -9,8 +9,8 @@ sort_key: 1
 
 {% include project-headers.html %}
 
-![tests](https://github.com/mogolade/crusch/workflows/Go/badge.svg?branch=master) 
-[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/mogolade/crusch)
+![tests](https://github.com/weavc/crusch/workflows/Go/badge.svg?branch=master) 
+[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/weavc/crusch)
 
 Crusch is a lightweight libary which provides tools for Github Apps to communicate with Githubs V3 API, without too much unnecessary hassle.
 
@@ -22,7 +22,7 @@ client := crusch.NewDefault()
 client.NewInstallationAuthFile(<ApplicationID>, <InstallationID>, <PEM keyfile location>)
 
 var v []github.Issue{}
-respose, err := client.GetJson("/repos/mogolade/crusch/issues", 
+respose, err := client.GetJson("/repos/weavc/crusch/issues", 
     "assignee=chrisweaver1&state=open", &v)
 ```
 

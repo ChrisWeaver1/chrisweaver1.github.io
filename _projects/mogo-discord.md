@@ -1,7 +1,7 @@
 ---
 layout: md
 title: Mogo-Discord
-repo: mogolade/mogo-discord
+repo: weavc/mogo-discord
 description: Javascript library of helpers for discord bots, helps with routing messages to functions and paging embeds with reactions. Works inline with discord.js
 tags: ['javascript', 'npm', 'typescript', 'discord']
 sort_key: 2
@@ -18,7 +18,7 @@ The router is used to route incoming messages to different functions to handle t
 The `Router` class takes a routes parameter, this is a list of routes you provide to the router that it uses to make routing decisions and might look like this:
 ```
 let routes : Route[] = [
-    { name: 'prefix', alias: ['mogo', 'mogolade'], children: [
+    { name: 'prefix', alias: ['mogo', 'weavc'], children: [
         { name: 'welcome', alias: ['hello', 'hi', 'welcome'], handler: grettingsHandler },
         { name: 'github', alias: ['github', 'git'], handler: githubHandler },
         { name: 'code', alias: ['c', 'code'], args: codeArgs, handler: codeHandler, children: [
