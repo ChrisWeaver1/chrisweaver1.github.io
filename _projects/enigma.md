@@ -37,6 +37,8 @@ There are a number of revisions of Enigma, this repository only implements the `
 - http://summersidemakerspace.ca/projects/enigma-machine/
 - https://en.wikipedia.org/wiki/Enigma_machine
 
-### Embeded demo [https://enigma.weav.ovh](https://enigma.weav.ovh)
+### Embeded demo 
+
+[https://enigma.weav.ovh](https://enigma.weav.ovh)
 
 {% include enigma-iframe.html %}
