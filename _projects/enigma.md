@@ -2,9 +2,10 @@
 layout: md
 title: M3 Enigma Emulator
 repo: weavc/enigma
-description: Python based M3 Enigma emulator
+description: Python based M3 Enigma emulator with a flask frontend
 tags: ['python', 'flask', 'cryptography', 'enigma', 'docker']
 sort_key: 1
+pinned: true
 ---
 
 {% include project-headers.html %}

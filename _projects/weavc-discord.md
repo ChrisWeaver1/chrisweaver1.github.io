@@ -2,9 +2,10 @@
 layout: md
 title: weavc-discord
 repo: weavc/weavc-discord
-description: Javascript library of helpers for discord bots, helps with routing messages to functions and paging embeds with reactions. Works inline with discord.js
+description: Javascript library of helpers for discord bots, helps with parsing and routing messages and paging embeds with reactions. Works inline with discord.js
 tags: ['javascript', 'npm', 'typescript', 'discord']
 sort_key: 2
+pinned: true
 ---
 
 {% include project-headers.html %}

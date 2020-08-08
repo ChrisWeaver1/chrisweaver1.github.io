@@ -1,10 +1,11 @@
 ---
 layout: md
-title: yuu
+title: Yuu
 repo: weavc/yuu
-description: Plugin manager for Go. Implements an easy way to handle and communicate with plugins to help extend applications
+description: Lightweight plugin manager for Go. Implement and communicate with go plugins
 tags: ['go', 'plugins', 'events']
 sort_key: 1
+pinned: true
 ---
 
 {% include project-headers.html %}
