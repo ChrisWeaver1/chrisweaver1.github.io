@@ -1,7 +1,7 @@
 <div id="breadcrumbs" class="mb-3">
     <small>
         {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
-        <a href="/">Dashboard</a>
+        <a href="/">Home</a>
         {% for crumb in crumbs offset: 1 %}
 
         {% if forloop.last %}
