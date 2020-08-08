@@ -1,7 +1,10 @@
   
 name: Docker Build and Push
 
-on: 
+on:
+  push:
+    branches: 
+      - master
   release:
     types: [published]
     
