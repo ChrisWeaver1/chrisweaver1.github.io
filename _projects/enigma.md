@@ -35,3 +35,7 @@ There are a number of revisions of Enigma, this repository only implements the `
 - https://en.wikipedia.org/wiki/Enigma_rotor_details
 - http://summersidemakerspace.ca/projects/enigma-machine/
 - https://en.wikipedia.org/wiki/Enigma_machine
+
+### demo
+
+{% include enigma-iframe.html %}
