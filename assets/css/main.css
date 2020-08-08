@@ -45,23 +45,24 @@ body {
     margin: auto
 }
 
-@media (max-width: 768px) {
-    .site {
-        max-width: 95%;
-    }
-}
-
-@media (max-width: 992px) {
-    .site {
-        max-width: 92%;
-    }
-}
-
 @media (max-width: 1280px) {
     .site {
         max-width: 80%;
     }
 }
+
+@media (max-width: 992px) {
+    .site {
+        max-width: 97%;
+    }
+}
+
+@media (max-width: 768px) {
+    .site {
+        max-width: 97%;
+    }
+}
+
 
 a {
     color: #e83e73 !important;
