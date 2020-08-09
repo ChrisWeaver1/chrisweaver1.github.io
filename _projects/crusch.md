@@ -13,11 +13,11 @@ pinned: true
 ![tests](https://github.com/weavc/crusch/workflows/Go/badge.svg?branch=master) 
 [![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/weavc/crusch)
 
-Crusch is a lightweight libary which provides tools for Github Apps to communicate with Githubs V3 API, without too much unnecessary hassle.
+Crusch is a lightweight library  which provides tools for Github Apps to communicate with Githubs V3 API, without too much unnecessary hassle.
 
-This libary provides a simple client struct to make requests to Githubs API. Clients aid with adding and creating the required authorization headers, renewing them when they to be renewed and other helper methods.
+This library provides a simple client struct to make requests to Githubs API. Clients aid with adding and creating the required authorization headers, renewing them when they to be renewed and other helper methods.
 
-It wasn't made as a replacement for the larger libaries that do similar things (`go-github`), but it was designed as a lightweight client to make things easier for projects that don't need everything that `go-github` offers. I often found myself cross refrencing both Githubs API documentation and the `go-github` documentation which often felt over complicated for what I was trying to put together. At the same time handling the authenication for Github applications can get quite complex, having to produce your own JWT token for the provided PEM file, then requesting a very shortlived token (10 minutes) from Github for an installation.
+It wasn't made as a replacement for the larger libraries that do similar things (`go-github`), but it was designed as a lightweight client to make things easier for projects that don't need everything that `go-github` offers. I often found myself cross referencing both Githubs API documentation and the `go-github` documentation which often felt over complicated for what I was trying to put together. At the same time handling the authentication for Github applications can get quite complex, having to produce your own JWT token for the provided PEM file, then requesting a very short lived token (10 minutes) from Github for an installation.
 
 #### Usage
 
