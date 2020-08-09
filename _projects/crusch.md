@@ -33,7 +33,7 @@ respose, err := client.GetJson("/repos/weavc/crusch/issues",
     "assignee=chrisweaver1&state=open", &v)
 ```
 
-This will create the necassary authentication headers from the provided Application ID, Installation ID and PEM file, then perform the request to `https://api.github.com/repos/weavc/crusch/issues`. If the request is successful the data will decoded and bound to `&v` in this case. Any errors and the full response are sent back to the application so they can be handled separately, i.e. Github often sends back additional details in headers like `Link` headers.
+This will create the necessary authentication headers from the provided Application ID, Installation ID and PEM file, then perform the request to `https://api.github.com/repos/weavc/crusch/issues`. If the request is successful the data will be decoded and bound to `&v` in this case. Any errors and the full response are sent back to the application so they can be handled separately, i.e. Github often sends back additional details in headers like `Link` headers.
 
 
 
