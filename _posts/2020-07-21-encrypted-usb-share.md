@@ -4,6 +4,7 @@ title: Creating an encrypted USB network share
 description: Quick setup for an encrypted USB drive and samba network share
 tags: ['linux', 'cryptography', 'networking', 'samba', 'docker']
 sort_key: 1
+permalink: blog/2020-07-21-encrypted-usb-share
 ---
 
 {% include project-headers.html %}
@@ -46,7 +47,7 @@ This will be using `cryptsetup` and `luks` to encrypt the drive. These are quite
 1. Setup encryption
     - Here I use the `aes-cbc-essiv:sha256` cipher option, there are other more secure choices, this one is often clasified as 'sufficient' and is good enough for what I am doing. 
     - Will be prompted to setup a password at this stage
-    
+
     ```
     cryptsetup -y --cipher aes-cbc-essiv:sha256 --key-size 256 luksFormat [/dev/sdb]
     ```
