@@ -4,7 +4,6 @@ title: chrisweaver1.github.io
 repo: chrisweaver1/chrisweaver1.github.io
 description: Simple, personal website/blog/portfolio built using Jekyll, hosted ny Github Pages
 tags: ['jekyll', 'ruby', 'html', 'portfolio', 'docker']
-sort_key: 5
 ---
 
 {% include project-headers.html %}

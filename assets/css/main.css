@@ -42,7 +42,8 @@ body {
 
 .site {
     max-width: 55%;
-    margin: auto
+    margin: auto;
+    width: 100%;
 }
 
 @media (max-width: 1280px) {

@@ -4,4 +4,4 @@ permalink: /blog/
 layout: default
 ---
 
-currently unavailable
+{% include blog.html %}
