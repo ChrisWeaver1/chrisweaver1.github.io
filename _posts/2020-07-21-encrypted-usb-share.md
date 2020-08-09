@@ -9,9 +9,9 @@ permalink: blog/2020-07-21-encrypted-usb-share
 
 {% include project-headers.html %}
 
-I had a requirement for an encrypted USB drive that could be accessible over my home network when needed. It needed to allow me to mount, decrypt and un-mount quickly, easily and remotely, so I had access to the files on any of my devices (laptops, mobile etc) while VPN'd onto my home network. 
+I had a requirement for an encrypted USB drive that could be accessible over my home network when needed. It needed to allow me to mount, decrypt and unmount quickly, easily and remotely, so I had access to the files on any of my devices (laptops, mobile etc) while VPN'd onto my home network. 
 
-In my case this was to largely be used for key files and other misc files with potentially sensitive imformation in them.
+In my case this was to largely be used for key files and other misc files with potentially sensitive information in them.
 
 #### Hardware and software
 
@@ -22,7 +22,7 @@ In my case this was to largely be used for key files and other misc files with p
 
 #### Drive encryption
 
-This will be using `cryptsetup` and `luks` to encrypt the drive. These are quite standard on most linux distrobutions and are often used for creating encrypted volumes, drives etc.
+This will be using `cryptsetup` and `luks` to encrypt the drive. These are quite standard on most linux distributions and are often used for creating encrypted volumes, drives etc.
 
 1. Connect the usb
 1. Find out where its mounted. `fdisk` can help with this
@@ -45,7 +45,7 @@ This will be using `cryptsetup` and `luks` to encrypt the drive. These are quite
     wipefs -a [/dev/sdb]
     ```
 1. Setup encryption
-    - Here I use the `aes-cbc-essiv:sha256` cipher option, there are other more secure choices, this one is often clasified as 'sufficient' and is good enough for what I am doing. 
+    - Here I use the `aes-cbc-essiv:sha256` cipher option, there are other more secure choices, this one is often classified as 'sufficient' and is good enough for what I am doing. 
     - Will be prompted to setup a password at this stage
 
     ```
@@ -99,7 +99,7 @@ umount [samba-volume]
 cryptsetup luksClose [volume-name]
 ```
 
-Alternativly a script like this can be created to start and stop everything:
+Alternatively, a script like this can be created to start and stop everything:
 ```bash
 if [ "$1" == "start" ]; then
 	cryptsetup luksOpen [/dev/sdb] [volume-name] 

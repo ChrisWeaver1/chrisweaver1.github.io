@@ -76,7 +76,7 @@ let handler : RouteHandler = (message, client, args) => {
 }
 ```
 
-There is also a method called `ParseArgs` exported. This takes the content of a message and an array of `ArgParser`'s, much like the router. It will return the same `ArgsModel` class aswell.
+There is also a method called `ParseArgs` exported. This takes the content of a message and an array of `ArgParser`'s, much like the router. It will return the same `ArgsModel` class as well.
 
 #### Pager
 

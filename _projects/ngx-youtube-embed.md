@@ -23,4 +23,4 @@ An Angular component that allows the embedding of youtube videos into an angular
 </youtube-embed>
 ```
 
-This was a small project for something we were doing at work as nothing really met our requirements at the time. I decided to put this togther, using parts from other projects and packaged it up for internal use, later making it public. 
+This was a small project for something we were doing at work as nothing really met our requirements at the time. I decided to put this together, using parts from other projects and packaged it up for internal use, later making it public. 
