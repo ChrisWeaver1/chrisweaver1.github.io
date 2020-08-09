@@ -80,9 +80,9 @@ There is also a method called `ParseArgs` exported. This takes the content of a 
 
 #### Pager
 
-Useful method the can be used to page through numerous embeds using ⬅ ➡ reactions. This is quite commonly used for help pages or when there is alot of data to display.
+A useful method that can be used to page through numerous embeds using ⬅ ➡ reactions. This is quite commonly used for help pages or when there is alot of data to display.
 
-Its as simple as creating your embeds, do this using `discord.js`'s `MessageEmbed` class, then pass the message you are responding to, client and the array of embeds to the Pager method. there is also a number of options that can be passed though aswell.
+Its as simple as creating your embeds, do this using `discord.js`'s `MessageEmbed` class, then pass the message you are responding to, client and the array of embeds to the Pager method. there is also a number of options that can be passed though as well.
 
 ```
 let m1: MessageEmbed = new MessageEmbed()
