@@ -1,7 +1,7 @@
 ---
 layout: md
-title: Yuu
-repo: weavc/yuu
+title: Yew
+repo: weavc/yew
 description: Lightweight plugin manager for Go. Implement and communicate with go plugins
 tags: ['go', 'plugins', 'events']
 sort_key: 1
@@ -10,10 +10,10 @@ pinned: true
 
 {% include project-headers.html %}
 
-![tests](https://github.com/weavc/yuu/workflows/Go/badge.svg?branch=master) 
-[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/weavc/yuu)
+![tests](https://github.com/weavc/yew/workflows/Go/badge.svg?branch=master) 
+[![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/github.com/weavc/yew)
 
-Yuu is a lightweight module in its early stages of development/testing. Its aim is to aid in using plugin/event driven architecture within go. There are probably alternatives out there, I just started doing a small project and it turned into this.
+Yew is a lightweight module in its early stages of development/testing. Its aim is to aid in using plugin/event driven architecture within go. There are probably alternatives out there, I just started doing a small project and it turned into this.
 
 There are 2 main parts to this module, the `Plugin` and `Handler`. The `Handler` can register any `Plugin`'s it is asked to load, this can be through `.so` file(s) (built using `go build -buildmode=plugin`) or any struct that implements the `pkg/plugin.Plugin` interface. Once registered, plugins can emit and receive events, much like javascript event emitters. This allows them to communicate with each other and the host application without the need to know about eachother.
 
