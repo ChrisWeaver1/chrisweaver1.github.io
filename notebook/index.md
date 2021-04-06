@@ -4,6 +4,7 @@ title: Notebook
 description: 'Misc notes about things'
 sort_key: 1
 permalink: notebook
+filter: 'notebook'
 ---
 
 {% include project-headers.html %}
