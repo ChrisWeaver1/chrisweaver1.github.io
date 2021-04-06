@@ -1,14 +1,17 @@
 <div class="container-fluid content-row">
     <div class="row">
+        <ul class="list-group w-100">
         {% assign items = site.posts %}
         {%- for p in items %}
         {% if p.categories contains 'notebook' %}
         {% if p.categories contains page.filter %}
-        <div class="w-100">
-            <a href="{{p.url}}"><small>{{p.date}} {{p.title}}&nbsp;<i class="fas fa-link"></i></small></a>
-        </div>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a href="{{p.url}}"><small>{{p.title}}&nbsp;<i class="fas fa-link"></i></small></a>
+            <span class="badge badge-primary badge-pill">{{p.date | date: "%d-%m-%Y" }}</span>
+          </li>
         {% endif %}
         {% endif %}
         {% endfor -%}
+        </ul>
     </div>
 </div>
