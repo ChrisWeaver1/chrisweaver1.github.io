@@ -74,3 +74,13 @@ td {
 hr {
     border-top: 2px solid #b8b6af;
 }
+
+blockquote{
+  font-size: 1.4em;
+  width:60%;
+  margin:50px auto;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #e83e8c ;
+  line-height:1.6;
+  position: relative;
+}
