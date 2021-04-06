@@ -9,4 +9,10 @@ permalink: notebook
 
 {% include project-headers.html %}
 
-- [linux](/notebook/linux/)
+#### Contents
+
+- [linux](linux/)
+- [dotnet](dotnet/)
+- [go](go/)
+- [docker](docker/)
+- [misc](misc/)
