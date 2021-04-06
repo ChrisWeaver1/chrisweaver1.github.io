@@ -9,7 +9,7 @@ sort_key: 1
 {% include project-headers.html %}
 
 #### Picking a cipher, mode, hash and key size
-- Keysize, well you know what they say about big keys
+- Keysize, size does matter here...
 - Whats available & best depends on the system and use case
 - See `/proc/crypto` & `cryptsetup benchmark` for ciphers available 
 - See `cryptsetup --help | tail -n 8` for defaults. Should be "Pretty good"
