@@ -11,12 +11,12 @@ sort_key: 1
 #### Picking a cipher, mode, hash and key size
 - Keysize, well you know what they say about big keys
 - Whats available & best depends on the system and use case
-- See `/proc/crypto`, `cryptsetup benchmark` for ciphers available 
+- See `/proc/crypto` & `cryptsetup benchmark` for ciphers available 
 - See `cryptsetup --help | tail -n 8` for defaults. Should be "Pretty good"
 - Further Reading: 
-  - https://gitlab.com/cryptsetup/cryptsetup/-/wikis/LUKS-standard/on-disk-format.pdf
-  - https://unix.stackexchange.com/questions/354787/list-available-methods-of-encryption-for-luks
-  - https://superuser.com/questions/271902/system-encryption-luks-whats-the-strongest-and-most-secure-key-size
+  - [https://gitlab.com/cryptsetup/cryptsetup/-/wikis/LUKS-standard/on-disk-format.pdf](https://gitlab.com/cryptsetup/cryptsetup/-/wikis/LUKS-standard/on-disk-format.pdf)
+  - [https://unix.stackexchange.com/questions/354787/list-available-methods-of-encryption-for-luks](https://unix.stackexchange.com/questions/354787/list-available-methods-of-encryption-for-luks)
+  - [https://superuser.com/questions/271902/system-encryption-luks-whats-the-strongest-and-most-secure-key-size](https://superuser.com/questions/271902/system-encryption-luks-whats-the-strongest-and-most-secure-key-size)
 - Useful extract:
 > #### Valid cipher names
 >```
@@ -40,8 +40,8 @@ sort_key: 1
 >    sha512 SHA variant according to FIPS 180-2
 >    ripemd160 http://www.esat.kuleuven.ac.be/~bosselae/ripemd160.html
 >```
-
-I ended up going with `aes-xts-plain64`
+>
+I ended up going with `aes-xts-plain64`.
 
 #### Find where usb is mounted
 ```bash
