@@ -1,0 +1,12 @@
+<div class="container-fluid content-row">
+    <div class="row">
+        {% assign items = site.posts | sort: 'sort_key' %}
+        {%- for p in items %}
+        {% if p.categories contains 'notebook' %}
+        {% if p.categories contains page.filter %}
+        <a class="float-right" href="{{p.url}}"><small>{{p.title}}&nbsp;<i class="fas fa-link"></i></small></a>
+        {% endif %}
+        {% endif %}
+        {% endfor -%}
+    </div>
+</div>
