@@ -11,10 +11,10 @@ sort_key: 1
 Using [`alexandreroman/rpi-samba`](https://github.com/alexandreroman/rpi-samba)
 
 #### Create a directory for the share
-This will be bind mounted to the docker container
 ```
 mkdir [path-to-share]
 ```
+- This will be bind mounted to the docker container
 
 #### Clone the repo & build the image
 ```
