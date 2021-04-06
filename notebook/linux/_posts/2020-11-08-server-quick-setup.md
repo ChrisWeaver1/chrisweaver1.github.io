@@ -1,8 +1,8 @@
 ---
 layout: md
 title: Quick server setup
-description: 'Server quick setup notes & walkthrough'
-tags: ['linux']
+description: 'Server setup notes & security resources'
+tags: ['linux', 'security']
 sort_key: 1
 ---
 
