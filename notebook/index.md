@@ -15,3 +15,5 @@ permalink: notebook
 - [go](go/)
 - [docker](docker/)
 - [misc](misc/)
+
+{% include notebook.html %}
