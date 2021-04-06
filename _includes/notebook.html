@@ -1,6 +1,6 @@
 <div class="container-fluid content-row">
     <div class="row">
-        {% assign items = site.posts | sort: 'sort_key' %}
+        {% assign items = site.posts %}
         {%- for p in items %}
         {% if p.categories contains 'notebook' %}
         {% if p.categories contains page.filter %}
