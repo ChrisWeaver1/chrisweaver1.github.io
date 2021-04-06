@@ -17,4 +17,7 @@ filter: 'notebook'
 - [docker](docker/)
 - [misc](misc/)
 
+#### Posts
+
 {% include notebook.html %}
+
