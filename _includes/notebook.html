@@ -4,7 +4,9 @@
         {%- for p in items %}
         {% if p.categories contains 'notebook' %}
         {% if p.categories contains page.filter %}
-        <a class="float-right" href="{{p.url}}"><small>{{p.title}}&nbsp;<i class="fas fa-link"></i></small></a>
+        <div class="w-100">
+            <a href="{{p.url}}"><small>{{p.date}} {{p.title}}&nbsp;<i class="fas fa-link"></i></small></a>
+        </div>
         {% endif %}
         {% endif %}
         {% endfor -%}
