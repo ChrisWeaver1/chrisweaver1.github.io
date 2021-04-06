@@ -40,7 +40,7 @@ sort_key: 1
 >    sha512 SHA variant according to FIPS 180-2
 >    ripemd160 http://www.esat.kuleuven.ac.be/~bosselae/ripemd160.html
 >```
->
+
 I ended up going with `aes-xts-plain64`.
 
 #### Find where usb is mounted
