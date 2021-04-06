@@ -1,7 +1,7 @@
 ---
 layout: md
 title: Notebook
-description: ''
+description: 'Misc notes about things'
 tags: []
 sort_key: 1
 permalink: notebook
