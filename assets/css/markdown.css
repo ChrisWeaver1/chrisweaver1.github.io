@@ -83,6 +83,8 @@ blockquote{
   position: relative;
 }
 
+/* code highlighting */
+
 .highlight pre { background-color: rgb(34, 32, 32); }
 .highlight .hll { background-color: #333333 }
 .highlight .c { color: #008800; font-style: italic; } /* Comment */
