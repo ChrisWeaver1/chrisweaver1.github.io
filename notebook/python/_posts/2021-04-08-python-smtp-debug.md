@@ -4,7 +4,6 @@ title: Python SMTP debugging
 description: Quick script to help debug SMTP issues
 tags: ['python', 'smtp']
 sort_key: 1
-permalink: blog/2020-07-21-encrypted-usb-share
 ---
 
 {% include project-headers.html %}
