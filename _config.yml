@@ -10,3 +10,8 @@ collections:
         name: projects
         output: true
         permalink: "/projects/:path"
+kramdown:
+    syntax_highlighter_opts:
+        line_numbers: false
+        tab_width: 2
+        css: class

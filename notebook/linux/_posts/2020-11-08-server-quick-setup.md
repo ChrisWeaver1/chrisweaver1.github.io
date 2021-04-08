@@ -9,7 +9,7 @@ sort_key: 1
 {% include project-headers.html %}
 
 #### Script
-`bash -c "$(curl -fsSL https://blog.weav.ovh/assets/notes/setup.sh)"`
+`bash -c "$(curl -fsSL https://blog.weav.ovh/assets/files/setup.sh)"`
 
 ```
 sudo apt-get update

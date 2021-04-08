@@ -12,7 +12,7 @@ Software developer with a background in ethical hacking and security.
 
 Currently working as a full stack developer, using a variety of tech including Dotnet core, Microsoft SQL, MongoDB, NodeJS, Angular and Electron.
 
-I enjoy playing with all sorts of tech and learning new stuff. Feel free to check out the [projects](/projects) and [blog](/blog) sections for details!
+I enjoy playing with all sorts of tech and learning new stuff. Feel free to check out the [projects](/projects) section. [Notebook](/notebook) is full of notes & resources to do with day-to-day development & surrounding subjects.
 
 ---
 

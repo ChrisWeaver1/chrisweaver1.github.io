@@ -17,7 +17,7 @@ There can be implemented alongside `discord.js` to provide a number of utilities
 The router is used to route incoming messages to different functions to handle the result. Using this is a nice setup from using large amounts of if statements to check and redirect the message. This works much like many http frameworks i.e. `expressjs`, where you setup your routes and when an incoming request comes in that matches the route it is passed to the function. 
 
 The `Router` class takes a routes parameter, this is a list of routes you provide to the router that it uses to make routing decisions and might look like this:
-```
+```javascript
 let routes : Route[] = [
     { name: 'prefix', alias: ['mogo', 'weavc'], children: [
         { name: 'welcome', alias: ['hello', 'hi', 'welcome'], handler: grettingsHandler },
@@ -40,7 +40,7 @@ A `Route` consists of a number of fields and options:
 - `default`: if no routes match, but there is a default child, this will be used without alias' matching
 
 Once the `Router` class has been initialized you can pass incoming messages to it like so:
-```
+```javascript
 client.on('message', (message: Message) => { router.Go(message) });
 ```
 
@@ -48,7 +48,7 @@ client.on('message', (message: Message) => { router.Go(message) });
 
 There are a number of ways to parse arguments from a message in this library. It can be done through the router by passing through an array of `ArgParser`'s to the `args` field in a `Route`. This will pass a class to the handler that allows you to find values within a message.
 
-```
+```javascript
 // define flags and values
 // [default] gets the first parameter after the matching route. 
 // [default] only works when parsing through the router & calling ParseArgs directly
@@ -84,7 +84,7 @@ A useful method that can be used to page through numerous embeds using ⬅ ➡ r
 
 Its as simple as creating your embeds, do this using `discord.js`'s `MessageEmbed` class, then pass the message you are responding to, client and the array of embeds to the Pager method. there is also a number of options that can be passed though as well.
 
-```
+```javascript
 let m1: MessageEmbed = new MessageEmbed()
     .setTitle('Page 1')
     .setColor(0xb5130f)
