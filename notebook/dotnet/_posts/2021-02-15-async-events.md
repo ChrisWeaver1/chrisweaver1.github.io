@@ -122,3 +122,39 @@ public abstract class OnDisposalEventServiceBase<TArgs> : EventServiceBase<TArgs
     }
 }
 ```
+
+## Example Implementation
+
+### LoginEvent.cs
+```c#
+public class LoginEvent : OnDisposalEventEmitterBase<LoginEventArgs>, IEventService<LoginEventArgs>
+{
+    public LoginEvent(IEnumerable<IEventHandler<LoginEventArgs>> events) : base(events) { }
+}
+```
+
+### LoginLogEventHandler.cs
+```c#
+public class LoginLogHandler : IEventHandler<LoginEventArgs>
+{
+    private readonly ILogger<LoginLogHandler> logger;
+
+    public LoginLogHandler(ILogger<LoginLogHandler> logger)
+    {
+        this.logger = logger;
+    }
+
+    public Task HandleEvent(Object sender, LoginEventArgs args)
+    {
+        // This could log to a database, capture client information or whatever we want to do
+        // for now it will just log if the request was successful or not.
+        
+        if (args.Result.Success)
+            this.logger.LogInformation($"Successful login to user {args.Result.Payload.auth.Id}");
+        else
+            this.logger.LogWarning($"Unsuccessful login to user {args.Result.Payload.auth.Id}");
+
+        return Task.CompletedTask;
+    }
+}
+```
