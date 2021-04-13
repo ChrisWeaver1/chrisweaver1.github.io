@@ -82,8 +82,8 @@ public abstract class EventServiceBase<TArgs> : IEventService<TArgs>
 ```c#
 /// <summary>
 /// An extended implementation of BaseEventService. Certain types of events wont be required to 
-/// be emitted to their handlers right away. We can use an implemention of this service to
-/// queue them and emit them on disposal of this service instead.
+/// be emitted to their handlers right away. We can use this implemention to
+/// queue the events and emit them on disposal instead of right away.
 /// </summary>
 /// <typeparam name="TArgs">Type of Payload/args emitted by event</typeparam>
 public abstract class OnDisposalEventServiceBase<TArgs> : EventServiceBase<TArgs>, IAsyncDisposable, IEventService<TArgs>
