@@ -7,17 +7,6 @@ sort_key: 1
 
 {% include project-headers.html %}
 
-### IEventService.cs
-```c#
-/// <summary>
-/// Defines a new Event service
-/// </summary>
-/// <typeparam name="TArgs">Type of Payload/args emitted by event</typeparam>
-public interface IEventService<TArgs>
-{
-    Task Emit(object sender, TArgs args);
-}
-```
 
 ### AsyncEvent.cs
 ```c#
@@ -27,13 +16,24 @@ public interface IEventService<TArgs>
 /// <typeparam name="TArgs">Type of Payload/args emitted by event</typeparam>
 
 public delegate Task AsyncEvent<TArgs>(object sender, TArgs args);
+```
 
+### IEventService.cs
+```c#
+/// <summary>
+/// Used to emit events to handler services
+/// </summary>
+/// <typeparam name="TArgs">Type of Payload/args emitted by event</typeparam>
+public interface IEventService<TArgs>
+{
+    Task Emit(object sender, TArgs args);
+}
 ```
 
 ### IEventHandler.cs
 ```c#
 /// <summary>
-/// Event handler definition
+/// Defines an event handler. These should be called by an event service when the event is trigged
 /// </summary>
 /// <typeparam name="TArgs">Type of Payload/args emitted by event</typeparam>
 public interface IEventHandler<TArgs>
