@@ -7,3 +7,7 @@ filter: 'dotnet'
 ---
 
 {% include project-headers.html %}
+
+#### Posts
+
+{% include notebook.html %}
