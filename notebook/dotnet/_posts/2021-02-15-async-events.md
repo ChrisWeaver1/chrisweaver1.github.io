@@ -19,18 +19,6 @@ public interface IEventService<TArgs>
 }
 ```
 
-### IEventService.cs
-```c#
-/// <summary>
-/// Defines a new Event service
-/// </summary>
-/// <typeparam name="TArgs">Type of Payload/args emitted by event</typeparam>
-public interface IEventService<TArgs>
-{
-    Task Emit(object sender, TArgs args);
-}
-```
-
 ### AsyncEvent.cs
 ```c#
 /// <summary>
@@ -42,7 +30,7 @@ public delegate Task AsyncEvent<TArgs>(object sender, TArgs args);
 
 ```
 
-### EventHandler.cs
+### IEventHandler.cs
 ```c#
 /// <summary>
 /// Event handler definition
