@@ -40,7 +40,7 @@ find / -perm /4000
 /bin/systemctl
 ```
 
-#### Priviledge escuation
+#### Privilege esculation
 Reverse shell using netcat openbsd from systemctl service.
 ```bash
 [Unit]
