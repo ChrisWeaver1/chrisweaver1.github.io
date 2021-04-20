@@ -1,13 +1,13 @@
-  ---
-  layout: md
-  title: Security
-  description: 'Security, hacking, etc'
-  sort_key: 1
-  filter: 'security'
-  ---
+---
+layout: md
+title: Security
+description: 'Security, hacking, etc'
+sort_key: 1
+filter: 'security'
+---
 
-  {% include project-headers.html %}
+{% include project-headers.html %}
 
-  #### Posts
+#### Posts
 
-  {% include notebook.html %}
+{% include notebook.html %}
