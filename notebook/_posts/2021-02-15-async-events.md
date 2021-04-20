@@ -2,6 +2,7 @@
 layout: md
 title: Dotnet Async Events
 description: 'Async event service'
+categories: ['dotnet', 'dev']
 sort_key: 1
 ---
 

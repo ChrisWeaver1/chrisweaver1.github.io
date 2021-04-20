@@ -1,9 +1,9 @@
 ---
 layout: md
-title: Misc
-description: 'Misc notes'
+title: Linux
+description: 'Linux notes'
 sort_key: 1
-filter: 'misc'
+filter: 'linux'
 ---
 
 {% include project-headers.html %}

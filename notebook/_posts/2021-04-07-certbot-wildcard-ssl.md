@@ -4,6 +4,7 @@ title: Wildcard SSL with certbot
 description: 'Generating wildcare SSL with certbot & ovh dns'
 sort_key: 1
 tags: ['misc', 'security', 'tls']
+categories: ['security', 'linux']
 ---
 
 {% include project-headers.html %}

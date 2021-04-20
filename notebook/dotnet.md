@@ -1,7 +1,7 @@
 ---
 layout: md
-title: Linux
-description: 'Dotnet snippets & notes'
+title: Dotnet
+description: 'Dotnet code snippets & notes.'
 sort_key: 1
 filter: 'dotnet'
 ---

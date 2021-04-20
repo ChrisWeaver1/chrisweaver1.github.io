@@ -3,6 +3,7 @@ layout: md
 title: Luks / Cryptsetup encrypted USB
 description: ''
 tags: ['linux', 'cryptography']
+categories: ['linux', 'security']
 sort_key: 1
 ---
 

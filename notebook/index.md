@@ -1,7 +1,7 @@
 ---
 layout: md
 title: Notebook
-description: 'Personal notebook on day to day dev things'
+description: 'Personal notebook for day-to-day dev things'
 sort_key: 1
 filter: 'notebook'
 ---
@@ -10,12 +10,11 @@ filter: 'notebook'
 
 #### Contents
 
-- [linux](linux/)
-- [dotnet](dotnet/)
-- [go](go/)
-- [docker](docker/)
-- [security](security/)
-- [misc](misc/)
+- [linux](linux)
+- [dotnet](dotnet)
+- [go](go)
+- [docker](docker)
+- [security](security)
 
 #### Posts
 

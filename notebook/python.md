@@ -1,7 +1,7 @@
 ---
 layout: md
 title: Misc
-description: 'Python notes'
+description: 'Python code snippets & notes.'
 sort_key: 1
 filter: 'python'
 ---
