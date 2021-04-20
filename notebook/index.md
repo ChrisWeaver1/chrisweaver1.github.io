@@ -1,7 +1,7 @@
 ---
 layout: md
 title: Notebook
-description: 'Misc notes about things'
+description: 'Personal notebook on day to day dev things'
 sort_key: 1
 filter: 'notebook'
 ---

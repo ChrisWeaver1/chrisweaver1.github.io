@@ -3,10 +3,13 @@ layout: md
 title: TryHackMe Vulnversity CTF
 description: Notes on tryhackme.com's vulnversity challenge
 tags: ['security', 'tryhackme']
+categories: ['linux']
 sort_key: 1
 ---
 
 {% include project-headers.html %}
+
+Notes on [TryHackMe's Vulnversity](https://tryhackme.com/room/vulnversity) beginner challenge, covers basic recon, web application testing, file inclusion, reverse shells and privilege esculation.  
 
 #### Nmap Recon
 Use nmap to scan ports and try to find details about services and versions on those ports 
