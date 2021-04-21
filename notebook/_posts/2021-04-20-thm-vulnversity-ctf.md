@@ -1,14 +1,14 @@
 ---
 layout: md
-title: TryHackMe Vulnversity CTF
-description: Notes on tryhackme.com's vulnversity challenge
+title: TryHackMe Vulnversity Room
+description: Vulnversity notes & recap
 tags: ['security', 'tryhackme']
 categories: ['linux', 'security', 'thm']
 ---
 
 {% include project-headers.html %}
 
-[TryHackMe | Vulnversity](https://tryhackme.com/room/vulnversity)
+[TryHackMe ~ Vulnversity](https://tryhackme.com/room/vulnversity)
 
 Notes on the beginner challenge, vulnversity. Covers basic recon, web application testing, file inclusion, reverse shells and privilege esculation.  
 
