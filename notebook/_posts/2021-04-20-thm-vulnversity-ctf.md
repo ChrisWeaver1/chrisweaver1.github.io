@@ -3,7 +3,7 @@ layout: md
 title: TryHackMe Vulnversity CTF
 description: Notes on tryhackme.com's vulnversity challenge
 tags: ['security', 'tryhackme']
-categories: ['linux', 'security']
+categories: ['linux', 'security', 'thm']
 ---
 
 {% include project-headers.html %}
