@@ -8,7 +8,9 @@ categories: ['linux', 'security', 'thm']
 
 {% include project-headers.html %}
 
-Notes on [TryHackMe's Vulnversity](https://tryhackme.com/room/vulnversity) beginner challenge, covers basic recon, web application testing, file inclusion, reverse shells and privilege esculation.  
+[TryHackMe | Vulnversity](https://tryhackme.com/room/vulnversity)
+
+Notes on the beginner challenge, vulnversity. Covers basic recon, web application testing, file inclusion, reverse shells and privilege esculation.  
 
 #### Nmap Recon
 Use nmap to scan ports and try to find details about services and versions on those ports 
