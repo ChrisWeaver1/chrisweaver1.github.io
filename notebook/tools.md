@@ -1,9 +1,9 @@
 ---
 layout: md
-title: Docker
-description: 'Docker commands, notes, files and services.'
+title: Linux
+description: 'Linux notes, commands and tips'
 sort_key: 1
-filter: 'docker'
+filter: 'linux'
 ---
 
 {% include project-headers.html %}
@@ -11,4 +11,3 @@ filter: 'docker'
 #### Posts
 
 {% include notebook.html %}
-

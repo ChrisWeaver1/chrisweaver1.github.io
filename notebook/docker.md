@@ -1,9 +1,9 @@
 ---
 layout: md
-title: Go
-description: 'Go code snippets & notes.'
+title: Docker
+description: 'Misc docker notes, commands and files'
 sort_key: 1
-filter: 'go'
+filter: 'docker'
 ---
 
 {% include project-headers.html %}

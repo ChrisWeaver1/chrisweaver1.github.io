@@ -10,11 +10,20 @@ filter: 'notebook'
 
 #### Contents
 
+- [dev](dev)
+- [tools](tools)
 - [linux](linux)
-- [dotnet](dotnet)
-- [go](go)
-- [docker](docker)
 - [security](security)
+- [tryhackme](tryhackme)
+- [docker](docker)
+
+#### Todo / Checkout at some point
+
+| Name | Link | Description |
+| --- | --- | --- |
+| lit | [https://lit.dev/](https://lit.dev/) | New, lightweight js framework that actually looks quite good |
+| HackTheBox | [https://www.hackthebox.eu/](https://www.hackthebox.eu/) | Similar to try hack me, different rooms etc |
+
 
 #### Posts
 

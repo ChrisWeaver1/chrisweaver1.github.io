@@ -1,9 +1,9 @@
 ---
 layout: md
-title: Dotnet
-description: 'Dotnet code snippets & notes.'
+title: Dev
+description: 'Dev code snippets and notes'
 sort_key: 1
-filter: 'dotnet'
+filter: 'dev'
 ---
 
 {% include project-headers.html %}
@@ -11,3 +11,4 @@ filter: 'dotnet'
 #### Posts
 
 {% include notebook.html %}
+
