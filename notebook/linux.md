@@ -1,9 +1,9 @@
 ---
 layout: md
-title: Quick easy tools
-description: 'Misc tools useful for random tasks in dev like debugging or processing data/files'
+title: Linux
+description: 'Linux notes, commands and tips'
 sort_key: 1
-filter: 'tools'
+filter: 'linux'
 ---
 
 {% include project-headers.html %}

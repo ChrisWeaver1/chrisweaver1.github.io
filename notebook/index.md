@@ -23,8 +23,9 @@ filter: 'notebook'
 | --- | --- | --- |
 | lit | [https://lit.dev/](https://lit.dev/) | New, lightweight js framework that actually looks quite good |
 | HackTheBox | [https://www.hackthebox.eu/](https://www.hackthebox.eu/) | Similar to try hack me, different rooms etc |
+| --- | --- | --- |
 
-
+<br/>
 #### Posts
 
 {% include notebook.html %}
