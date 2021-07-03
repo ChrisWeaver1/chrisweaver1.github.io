@@ -18,12 +18,16 @@ p, ul, li, td, th {
 pre.highlight {
     /* background-color:rgba(255, 255, 255, 0.7); */
     border: 0px !important;
-    border-left: 3px solid #e83e8c !important;
+    border-left: 3px solid #db9a37 !important;
     border-radius: 0;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+code {
+    color:#db9a37;
 }
 
 table {
@@ -76,9 +80,6 @@ hr {
 }
 
 blockquote{
-  margin:25px auto;
-  padding:0em 30px 0em 30px;
-  border-left:7px solid #b8b6af ;
   line-height:1.6;
   position: relative;
 }
@@ -94,7 +95,7 @@ blockquote{
 .highlight .o { color: #f92672 } /* Operator */
 .highlight .p { color: #f8f8f2 } /* Punctuation */
 .highlight .cm { color: #75715e } /* Comment.Multiline */
-.highlight .cp { color: #75715e } /* Comment.Preproc */
+.highlight .cp { color: #75715e } /* Comment.Prepro015587c */
 .highlight .c1 { color: #75715e } /* Comment.Single */
 .highlight .cs { color: #75715e } /* Comment.Special */
 .highlight .ge { font-style: italic } /* Generic.Emph */

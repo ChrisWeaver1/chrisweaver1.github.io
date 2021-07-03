@@ -28,16 +28,16 @@ body {
 }
 
 .nav-link:hover {
-    color: #e83e73 !important;
+    color: #db9a37 !important;
 }
 
 .navbar {
-    border-top: 2px solid #e83e73;
+    border-top: 2px solid #db9a37;
     border-bottom: 1px solid #233345;
 }
 
 .active {
-    border-bottom: 3px solid #e83e73;
+    border-bottom: 3px solid #db9a37;
 }
 
 .site {
@@ -66,11 +66,11 @@ body {
 
 
 a {
-    color: #e83e73 !important;
+    color: #db9a37 !important;
 }
 
 a:hover {
-    color:#972c4e !important;
+    color:#ae7a2d !important;
 }
 
 body {
@@ -133,9 +133,9 @@ html {
 
 .header-text {
     font-weight: bolder;
-    text-shadow: 1px 1px #e83e73;
+    text-shadow: 1px 1px #db9a37;
 }
 
 .badge-secondary {
-    background-color: #e83e8c !important;
+    background-color: #ae7a2d !important;
 }
