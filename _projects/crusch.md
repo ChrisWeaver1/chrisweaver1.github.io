@@ -4,7 +4,7 @@ title: Crusch
 repo: weavc/crusch
 description: Authenication helper & query library for Githubs JSON API
 tags: ['go', 'github', 'bot', 'application', 'api']
-sort_key: 1
+sort_key: 2
 pinned: true
 ---
 
